@@ -1,0 +1,23 @@
+[project]
+name = "cleandata"
+version = "0.1.0"
+description = "Clean messy CSV/Excel data: fix types, drop duplicates, flag outliers, and get a reproducible audit report."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Naufal Kausar" }]
+dependencies = [
+    "pandas>=2.0",
+    "numpy>=1.24",
+    "openpyxl>=3.1",
+]
+
+[project.scripts]
+cleandata = "cleandata.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["cleandata"]

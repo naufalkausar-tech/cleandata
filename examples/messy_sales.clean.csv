@@ -1,0 +1,9 @@
+order_id,customer_name,order_date,amount,region,amount__outlier
+1001,Alice Tan,2026-01-05,1200.5,West,False
+1002,Bob Wu,2026-01-06,980.0,East,False
+1003,Carol Ng,2026-01-07,45.0,North,True
+1004,Bob Wu,2026-01-06,980.0,East,False
+1005,Dan Lee,2026-01-09,980.0,South,False
+1006,Eve Ong,2026-01-10,1050.75,West,False
+1007,Frank Sim,2026-01-11,99999.0,East,True
+1008,Grace Koh,2026-01-12,610.2,,False
